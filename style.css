@@ -1,0 +1,55 @@
+h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: cornsilk;
+  font-size: 45px;
+}
+
+body {
+  background-image: linear-gradient(to right, hsl(350, 100%, 95%),
+                                              hsl(350, 100%, 88%),
+                                              lightpink,
+                                              hotpink,
+                                              lightpink,
+                                              hsl(350, 100%, 88%), 
+                                              hsl(350, 100%, 95%));
+}
+
+.carta-img{
+  display: block;
+  margin: 0 auto;
+  margin-top: 150px;
+  width: 400px;
+}
+
+#janela-modal{
+  position: fixed;
+  background-color: rgb(0, 0, 0, 0.7);
+  top: 20%;
+  left: 25%;
+  width: 50%;
+  height: 70vh;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  
+  display: none;
+}
+
+.emoji-amor{
+  display: block;
+  margin:0 auto;
+  margin-top: 40px;
+}
+
+#janela-modal:target{
+  display: block;
+}
+
+.back{
+  color: pink;
+}
+
+h2{
+  color: hotpink;
+}
